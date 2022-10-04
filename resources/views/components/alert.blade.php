@@ -1,0 +1,6 @@
+@props(['title','body'])
+
+<div class="alert alert-info alert-dismissible fade show" role="alert">
+  <strong>{{$title}}!</strong> {{$body}}
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
